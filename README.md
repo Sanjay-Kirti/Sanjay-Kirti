@@ -101,12 +101,11 @@ and AI integrations because that's the industry's whole personality right now , 
 
 <div align="center">
 
-<a href="#"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Sanjay-Kirti&repo=REPO_NAME_1&theme=radical&hide_border=true&bg_color=0D1117&title_color=F72585&icon_color=7209B7" /></a>
-<a href="#"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Sanjay-Kirti&repo=REPO_NAME_2&theme=radical&hide_border=true&bg_color=0D1117&title_color=F72585&icon_color=7209B7" /></a>
+<a href="https://github.com/Sanjay-Kirti/Spur-chatbot"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Sanjay-Kirti&repo=Spur-chatbot&theme=radical&hide_border=true&bg_color=0D1117&title_color=F72585&icon_color=7209B7" /></a>
+<a href="https://github.com/Sanjay-Kirti/Kleros"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Sanjay-Kirti&repo=Kleros&theme=radical&hide_border=true&bg_color=0D1117&title_color=F72585&icon_color=7209B7" /></a>
 
 </div>
 
-> Replace `REPO_NAME_1` / `REPO_NAME_2` with your actual repo names.
 
 ---
 
