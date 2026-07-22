@@ -1,0 +1,55 @@
+name: PR Stats
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-pr-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch PR counts and update README
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const username = "Sanjay-Kirti";
+
+            const merged = await github.rest.search.issuesAndPullRequests({
+              q: `type:pr author:${username} is:merged`
+            });
+            const open = await github.rest.search.issuesAndPullRequests({
+              q: `type:pr author:${username} is:open`
+            });
+            const closedUnmerged = await github.rest.search.issuesAndPullRequests({
+              q: `type:pr author:${username} is:closed is:unmerged`
+            });
+
+            const mergedCount = merged.data.total_count;
+            const openCount = open.data.total_count;
+            const closedCount = closedUnmerged.data.total_count;
+
+            const badges = `
+            ![PRs Merged](https://img.shields.io/badge/PRs%20Merged-${mergedCount}-4CC9F0?style=for-the-badge&labelColor=1a1a2e)
+            ![PRs Open](https://img.shields.io/badge/PRs%20Open-${openCount}-F72585?style=for-the-badge&labelColor=1a1a2e)
+            ![PRs Not Merged](https://img.shields.io/badge/Not%20Merged-${closedCount}-7209B7?style=for-the-badge&labelColor=1a1a2e)
+            `.trim();
+
+            const fs = require('fs');
+            let readme = fs.readFileSync('README.md', 'utf8');
+            readme = readme.replace(
+              /<!--PR_STATS_START-->[\s\S]*<!--PR_STATS_END-->/,
+              `<!--PR_STATS_START-->\n${badges}\n<!--PR_STATS_END-->`
+            );
+            fs.writeFileSync('README.md', readme);
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: update PR stats"
+          git push
