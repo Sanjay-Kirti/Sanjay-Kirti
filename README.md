@@ -27,7 +27,7 @@ and AI integrations because that's the industry's whole personality right now , 
 
 ---
 
-### 🛠️ Tech Arsenal
+###  Tech Arsenal
 
 <div align="center">
 
@@ -58,7 +58,7 @@ and AI integrations because that's the industry's whole personality right now , 
 
 ---
 
-### 📊 GitHub Metrics
+###  GitHub Metrics
 
 <!-- METRICS_START -->
 <!-- This section auto-updates via GitHub Actions. See setup instructions below. -->
@@ -66,7 +66,7 @@ and AI integrations because that's the industry's whole personality right now , 
 
 ---
 
-### 🔥 Streak & Stats
+###  Streak & Stats
 
 <div align="center">
 
@@ -83,7 +83,7 @@ and AI integrations because that's the industry's whole personality right now , 
 
 ---
 
-### 🔀 Pull Request Activity
+###  Pull Request Activity
 
 <div align="center">
 
@@ -97,7 +97,7 @@ and AI integrations because that's the industry's whole personality right now , 
 
 ---
 
-### 🚀 Featured Projects
+###  Featured Projects
 
 <div align="center">
 
@@ -109,7 +109,7 @@ and AI integrations because that's the industry's whole personality right now , 
 
 ---
 
-### 📈 Contribution Graph
+###  Contribution Graph
 
 <div align="center">
 
@@ -119,7 +119,7 @@ and AI integrations because that's the industry's whole personality right now , 
 
 ---
 
-### 🌐 Find Me Elsewhere
+###  Find Me Elsewhere
 
 <div align="center">
 
