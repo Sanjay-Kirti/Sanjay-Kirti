@@ -88,7 +88,7 @@ and AI integrations because that's the industry's whole personality right now , 
 <div align="center">
 
 <!--PR_STATS_START-->
-![PRs Merged](https://img.shields.io/badge/PRs%20Merged-2-4CC9F0?style=for-the-badge&labelColor=1a1a2e)
+![PRs Merged](https://img.shields.io/badge/PRs%20Merged-3-4CC9F0?style=for-the-badge&labelColor=1a1a2e)
 ![PRs Open](https://img.shields.io/badge/PRs%20Open-2-F72585?style=for-the-badge&labelColor=1a1a2e)
 ![PRs Not Merged](https://img.shields.io/badge/Not%20Merged-5-7209B7?style=for-the-badge&labelColor=1a1a2e)
 <!--PR_STATS_END-->
