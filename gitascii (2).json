@@ -1,0 +1,206 @@
+{
+  "widgets": [
+    {
+      "widgetId": "codeweb-retro-grid",
+      "name": "Codeweb-retro-grid Widget",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 800,
+        "height": 260
+      },
+      "config": {
+        "selectedTechs": [
+          "ts",
+          "py",
+          "nextjs",
+          "graphql",
+          "solidity",
+          "react",
+          "zustand",
+          "nodejs",
+          "express",
+          "django",
+          "flask",
+          "fastapi",
+          "postgres",
+          "mongodb"
+        ],
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "technologies": [
+          "ts",
+          "py",
+          "nextjs",
+          "graphql",
+          "solidity",
+          "react",
+          "zustand",
+          "nodejs",
+          "express",
+          "django",
+          "flask",
+          "fastapi",
+          "postgres",
+          "mongodb"
+        ],
+        "accentColor": "#7a7a7a",
+        "secondaryColor": "#060606"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1,
+      "instanceId": "widget_1787984768866_0"
+    },
+    {
+      "widgetId": "codeweb-social-badge",
+      "name": "Codeweb-social-badge Widget",
+      "position": {
+        "x": 0,
+        "y": 1148
+      },
+      "size": {
+        "width": 792,
+        "height": 44
+      },
+      "config": {
+        "platforms": [
+          "medium",
+          "email",
+          "website",
+          "gmail",
+          "github"
+        ],
+        "renderMode": "single",
+        "showText": true,
+        "accentColor": "#7a7a7a",
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "label_gmail": "Gmail",
+        "platform": "gmail",
+        "customLabel": "lukebrushwood@gmail.com",
+        "animSpeed": "8s"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3,
+      "instanceId": "widget_1787984768866_2"
+    },
+    {
+      "instanceId": "widget_1787985016897",
+      "widgetId": "bio",
+      "name": "Bio Widget",
+      "position": {
+        "x": 0,
+        "y": 268
+      },
+      "size": {
+        "width": 800,
+        "height": 188
+      },
+      "config": {
+        "customBio": "I build full stack products by default, smart contracts when the client wants decentralization, and AI integrations because that's the industry's whole personality right now, mine too.\n\n",
+        "textAlign": "center",
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "lockAspectRatio": false
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "instanceId": "widget_1787985267533",
+      "widgetId": "terminal-info",
+      "name": "Terminal-info Widget",
+      "position": {
+        "x": 4,
+        "y": 468
+      },
+      "size": {
+        "width": 792,
+        "height": 184
+      },
+      "config": {
+        "headerColor": "#ffffff",
+        "labelColor": "#d4d4d8",
+        "dotColor": "#3f3f46",
+        "valueColor": "#fafafa",
+        "statsValColor": "#e4e4e7",
+        "dividerColor": "#27272a"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "widget_1787985562894",
+      "widgetId": "codeweb-minimal-badge",
+      "name": "Codeweb-minimal-badge Widget",
+      "position": {
+        "x": 0,
+        "y": 1204
+      },
+      "size": {
+        "width": 800,
+        "height": 44
+      },
+      "config": {
+        "suffix": "lets connect",
+        "animationType": "fade-in",
+        "animationPreviewKey": 1
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 7
+    },
+    {
+      "instanceId": "widget_1787985740738",
+      "widgetId": "streak-stats",
+      "name": "Streak-stats Widget",
+      "position": {
+        "x": 4,
+        "y": 664
+      },
+      "size": {
+        "width": 796,
+        "height": 210
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 8
+    },
+    {
+      "instanceId": "widget_1787985813183",
+      "widgetId": "contribution-snake",
+      "name": "Contribution-snake Widget",
+      "position": {
+        "x": 0,
+        "y": 886
+      },
+      "size": {
+        "width": 800,
+        "height": 250
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 8
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#0a0a14",
+    "textColor": "#d6e0f0",
+    "accentColor": "#6cc382",
+    "borderColor": "#1e1e38",
+    "fontFamily": "'JetBrains Mono', monospace",
+    "borderRadius": 0,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "codeweb"
+  },
+  "templateId": "codeweb"
+}
