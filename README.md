@@ -113,6 +113,12 @@ I don't just use open-source software — I contribute back.
 **Caspian SDK** — Merged PR: cross-channel real-time streaming (Telegram · Discord · Slack), plus a race-condition fix in long-running message state.
 [View contribution →](https://github.com/TryCaspian/caspian-sdk/pull/54)
 
+**kuberna-labs** — Merged PR: fixed a misleading juror/dispute counter naming bug in a Solidity `Dispute` contract, and added missing edge-case guards (duplicate-registration check, role verification in `vote()`, access control on `resolveDispute`).
+[View contribution →](https://github.com/kawacukennedy/kuberna-labs/pull/78)
+
+**datazip-inc/olake** — Merged PR (Go): fixed a MySQL driver bug where sync failed on empty tables by distinguishing truly-empty tables from tables with missing statistics — 19 commits across multiple review rounds, including researching and justifying rejecting an alternate approach.
+[View contribution →](https://github.com/datazip-inc/olake/pull/502)
+
 ---
 
 ###  GitHub Stats
