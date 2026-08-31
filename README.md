@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=F72585&center=true&vCenter=true&width=600&lines=Sanjay+Kirti;Full+Stack+%26+AI+Agent+Developer;1st+Place+%2F+288+%E2%80%94+Caspian+AI+Buildathon;Ships+code.+Occasionally+on+time." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=F72585&center=true&vCenter=true&width=600&lines=Sanjay+Kirti;Full+Stack+%26+AI+Agent+Developer;1st+Place+%2F+1200+%E2%80%94+Caspian+AI+Buildathon;Ships+code.+Occasionally+on+time." alt="Typing SVG" />
 
 [![GitHub](https://img.shields.io/badge/GitHub-Sanjay--Kirti-181717?style=for-the-badge&logo=github)](https://github.com/Sanjay-Kirti)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sanjay%20Kirti-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/sanjay-kirti-578297150)
